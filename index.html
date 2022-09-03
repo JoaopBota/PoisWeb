@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel='stylesheet' href='https://unpkg.com/leaflet@1.7.1/dist/leaflet.css' />
+    <script src='https://unpkg.com/leaflet@1.7.1/dist/leaflet.js'></script>
+    <title>Web Development Assesment</title>
+</head>
+
+<body>
+    <h1>Points of Interest</h1>
+    <div id="loginForm">
+        <h2>Login</h2>
+        <label for="userInput">Username:</label><br>
+        <input type="text" id="userInput"><br>
+        <label for="passwordInput">Password:</label><br>
+        <input type="text" id="passwordInput">
+        <button id="loginButton">Login</button>
+        <div id="loginOutput"></div>
+    </div>
+    <button id="logoutButton">Logout</button>
+    <button id="SearchButton">Search for a Point Of Interest</button>
+    <input type="text" id="regionInput">
+    <a href="/create.html">Create a Point of Interest</a>
+    <div id="results"></div>
+    <h1>Leaflet Test</h1>
+    <div id="map1" style="width:800px; height:600px"></div>
+    <div id="create"></div>
+    <button id="CreateButton">Create</button>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
